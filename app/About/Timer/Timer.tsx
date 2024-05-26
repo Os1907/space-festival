@@ -20,8 +20,8 @@ export default function Timer() {
     }, 1000);
        
   return  <>
-     <div className='flex justify-center items-center gap-x-2 font-extrabold   '>
-      <div className='border-basic border rounded-xl glass-basic  flex flex-col items-center py-2 px-4  '>
+     <div className='flex justify-center items-center gap-x-2 font-extrabold    '>
+      <div className='border-basic border rounded-xl glass-basic  flex flex-col items-center py-2 lg:px-4  '>
         <p className='text-basic font-semibold  lg:text-2xl text-lg inline   '>
           {
             days 
@@ -36,7 +36,7 @@ export default function Timer() {
       <span className='text-basic font-semibold lg:text-2xl text-xl'>
             : 
         </span>
-              <div className='border-basic border rounded-xl glass-basic shadow-md shadow-basic  flex flex-col items-center py-2 px-4 '>
+              <div className='border-basic border rounded-xl glass-basic shadow-md shadow-basic  flex flex-col items-center py-2 lg:px-4 '>
 
         <p className='text-basic font-semibold  lg:text-2xl text-lg inline  '>
 
@@ -52,7 +52,7 @@ export default function Timer() {
       <span className='text-basic font-semibold lg:text-2xl text-xl'>
             : 
         </span>
-        <div className='border-basic border rounded-xl glass-basic shadow-md shadow-basic  flex flex-col items-center py-2 px-4 '>
+        <div className='border-basic border rounded-xl glass-basic shadow-md shadow-basic  flex flex-col items-center py-2 lg:px-4 '>
 
         <p className='text-basic font-semibold  lg:text-2xl text-lg inline  '>
 
@@ -68,7 +68,7 @@ export default function Timer() {
       <span className='text-basic font-semibold lg:text-2xl text-xl'>
             : 
         </span>
-        <div className='border-basic border rounded-xl glass-basic shadow-md shadow-basic  flex flex-col items-center py-2 px-4 '>
+        <div className='border-basic border rounded-xl glass-basic shadow-md shadow-basic  flex flex-col items-center py-2 lg:px-4 '>
 
         <p className='text-basic font-semibold  lg:text-2xl text-lg inline  '>
 

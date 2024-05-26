@@ -6,7 +6,7 @@ const MainSection = () => {
     return (
         <div className="min-h-screen  bg-main relative ">
            <Carusol/>
-                <div className='absolute top-20 z-30 flex items-center flex-col lg:mt-20 mt-5 '>
+                <div className='absolute top-20  z-[1000] flex items-center flex-col lg:mt-20 '>
                 <Image src={banner} alt='image'  className='w-2/3  '/>
                 <div className='w-full'>
                 <g>
@@ -60,10 +60,10 @@ const MainSection = () => {
         <path d="M115.8 155.8c-.1.1-.1.3-.2.4.1-.1.3-.1.4-.1.2 0 .3-.1.3-.3l-.1-.1c-.2-.1-.3-.1-.4.1z" fill="#0f0e0e" data-color="1"></path>
     </g>
                 </div>
-                <p className='text-white font-medium my-2  glass-basic border-basic border  lg:mt-[-8px] lg:text-xl  text-[12px]  rounded-full px-2 lg:pt-1'>
+                <p className='text-white font-medium my-1  glass-basic border-basic border  lg:mt-[-8px] lg:text-xl  text-[10px]  rounded-full px-2 lg:pt-1'>
                     We Know How to Have Fun
                 </p>
-                <p className='text-white font-medium  glass-basic rounded-full border-basic border mt -[-8px] lg:text-xl  text-[10px]  px-2 '>
+                <p className='text-white font-medium  glass-basic rounded-full border-basic border lg:text-xl  text-[10px]  px-2 '>
                     Space Festival 
                 </p>
                 </div>
